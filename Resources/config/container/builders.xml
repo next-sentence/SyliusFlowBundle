@@ -22,7 +22,7 @@
     </parameters>
 
     <services>
-        <service id="sylius.process.builder" class="%sylius.process.builder.class%">
+        <service id="sylius.process.builder" class="%sylius.process.builder.class%" public="true">
             <argument type="service" id="service_container" />
         </service>
     </services>
